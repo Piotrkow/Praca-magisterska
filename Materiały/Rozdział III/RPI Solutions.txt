@@ -1,0 +1,3 @@
+Zmiana uk³adu znaków w terminalu: setxkbmap -layout us
+
+92.222.180.132 - cwienqu kanal

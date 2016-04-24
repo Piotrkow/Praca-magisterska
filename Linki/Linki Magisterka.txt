@@ -1,0 +1,45 @@
+https://www.raspberrypi.org/forums/viewtopic.php?f=66&t=59814
+
+http://www.videolan.org/vlc/
+
+https://www.youtube.com/watch?v=AxddSvbn21c - sterowanie kontrolerem z arduino
+
+https://www.raspberrypi.org/forums/viewtopic.php?f=37&t=63400 - Make a Drone using Raspberry pi only!
+
+https://github.com/richardghirst/PiBits/tree/master/ServoBlaster
+
+https://github.com/vranki/kittinger/blob/master/servocontrol.cpp
+
+http://www.instructables.com/id/Autonomous-Cardboard-Rasberry-Pi-Controlled-Quad/?ALLSTEPS
+
+https://github.com/vjaunet/QUADCOPTER_V2
+
+https://ghowen.me/build-your-own-quadcopter-autopilot/
+
+https://github.com/rpicopter/archive-images
+
+
+http://raspi.tv/2013/rpi-gpio-0-5-2a-now-has-software-pwm-how-to-use-it
+
+http://www.rcgroups.com/forums/showthread.php?t=1718951
+
+
+http://www.rcgroups.com/forums/showthread.php?t=2106426 - jak sterowaæ kk215 za pomoc¹ sygna³ów PWM
+
+http://blog.ilektronx.com/2013/01/hacking-cheap-hobbyking-6-channel.html
+
+http://www.sgm.siedlce.pl/index.php/warsztat/narzedzia/437-arduinoppm
+
+https://www.raspberrypi.org/forums/viewtopic.php?f=63&t=76976 - najwa¿niejsza strona dotycz¹ca sterowania za pomoc¹ kk2.1.5
+
+https://code.google.com/p/nextcopterplus/wiki/OpenAero2_Getting_Started
+
+
+http://www.mitchr.me/SS/batteriesRequired/RCcontrolTheory/
+
+http://forum.arduino.cc/index.php?topic=257823.15
+
+https://www.raspberrypi.org/documentation/remote-access/web-server/apache.md - web service
+
+http://raspberrywebserver.com/serveradmin/share-your-raspberry-pis-files-and-folders-across-a-network.html - udostepnianie plikow
+

@@ -1,0 +1,34 @@
+£¹czenie siê z RPi z sieci innej ni¿ lokalna:
+http://www.everydaylinuxuser.com/2013/06/connecting-to-raspberry-pi-from-outside.html
+https://www.raspberrypi.org/forums/viewtopic.php?f=43&t=85768
+https://drjohnstechtalk.com/blog/2013/02/ssh-access-to-your-raspberry-pi-from-anywhere/
+http://www.bez-kabli.pl/viewtopic.php?t=17114
+http://www.trzepak.pl/viewtopic.php?f=26&t=48645
+http://vpnonline.pl/konfiguracja/mikrotik-pptp
+http://majsterkowo.pl/dom-w-zasiegu-reki-czyli-dom-sterowany-z-dowolnego-miejsca-na-swiecie/
+
+Reverse SSH:
+http://charlesreid1.com/wiki/RaspberryPi/Reverse_SSH
+http://blog.hsp.dk/using-reverse-ssh-tunnels-to-bypass-stupid-isp-restrictions/
+http://raspberrypi.stackexchange.com/questions/40480/reverse-ssh-to-remote-host
+http://zieren.de/raspberry-pi/reverse-ssh-through-3gnat/
+http://www.thirdway.ch/En/projects/raspberry_pi_3g/index.php
+http://malinowo.net.pl/raspberry-pi-zdalny-dostep-reverse-ssh-internet-mobilny/
+
+RPi camera server:
+http://pimylifeup.com/raspberry-pi-webcam-server/
+https://www.youtube.com/watch?v=WNKbZsrsKVs
+
+Pixhawk:
+http://uavmatrix.com/Blog/17
+
+Stawianie serwera VPN:
+https://www.youtube.com/watch?v=a8ONOv623GI
+http://vpnonline.pl/konfiguracja/mikrotik-pptp
+http://osworld.pl/konfiguracja-openvpn/
+
+Software PWM przez przegl¹darkê:
+http://majsterkowo.pl/raspberrypi-software-pwm-przegladarke/
+
+Webiopi:
+https://www.google.de/search?q=webiopi+how+to+send+command&rct=j&gws_rd=cr&ei=jCc2Vq_qBOvXygOrr4KIDw#cns=0&gws_rd=cr

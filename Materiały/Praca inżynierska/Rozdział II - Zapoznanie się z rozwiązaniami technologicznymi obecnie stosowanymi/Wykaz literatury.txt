@@ -1,0 +1,22 @@
+[1] http://pl.wikipedia.org/wiki/Modelarstwo_RC
+[2] Rozporz¹dzenie Ministra Infrastruktury
+[3] electronics.howstuffworks.comSLASHrc-toy1.htm
+[4] http://abc-rc.pl/_cms/view/30/nadajnik-i-odbiornik-podstawy-wiedzy.html
+[5] http://www.piotrp.de/MIX/abc.htm
+[6] http://www.modelercs.fora.pl/dla-poczatkujacych,46/niezbedne-uniwersalne-wyposazenie-rc,12.html
+[7] http://www.modelmotor.pl/manufacturer/multiplex
+[8] http://www.pasja-rc.pl/index.php?p1048,33100-helikopter-rc-40mhz-3ch-gyro
+[9] Instrukcja laboratoryjna, æwiczenie nr 31, Modulacja AM
+[10] Instrukcja laboratoryjna, æwiczenie nr 32, Modulacja FM 
+[11] Sieci telekomunikacyjne, W. Kabaciñski, M. ¯al, WK£, Warszawa 2012,str.269-270(WiFi), str.267-268 (bluetooth)
+[12] Systemy radiokomunikacji ruchomej, K. Weso³owski, WK£, Warszawa 2006, str. 392-395, 407-413
+[13] http://www.modelmotor.pl/category/aparatury-rc-wyposazenie-rc
+[14] http://www.amazon.com/Quadcopter-Drone-With-2-4ghz-System/dp/B00KFPZJII
+[15] http://www3.towerhobbies.com/cgi-bin/wti0001p?&I=LXBWGR
+[16] http://pl.wikipedia.org/wiki/DSSS
+[17] http://www.brookstone.com/atom-bluetooth-controlled-rc-helicopter (helikopter atom bt)
+[18] http://pl.wikipedia.org/wiki/Bluetooth
+[19] http://pl.wikipedia.org/wiki/FHSS
+[20] http://www.nitrotek.pl/poradnik_24ghz.html/
+
+

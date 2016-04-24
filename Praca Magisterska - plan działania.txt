@@ -1,0 +1,10 @@
+1.Skompletowanie potrzebnych podzespo³ów - DONE
+2.Pod³¹czenie sprzêtu - DONE
+3.Wstêpna konfiguracja Raspberry (wy³¹cznie logowania, automatyczne odpalanie skryptów .py) - partly DONE
+4.Postawienie serwera na Raspberry - DONE
+5.Dostêp do Raspberry z sieci zewnêtrznej - DONE
+6.Stworzenie interfejsu, który umo¿liwia ogl¹danie obrazu z kamery + buttony steruj¹ce - InProgress
+7.Transmisja obrazu z kamery Raspberry i przekazywanie komend steruj¹cych z urz¹dzenia steruj¹cego(laptop, smartfon, tablet) - Almost DONE
+8.Próba wysterowania ESC oraz silników za pomoc¹ sygna³u PWM (potrzebny kontakt z Dr. Siwickim) - InProgress
+9.Zast¹pienie sieci WiFi sieci¹ LTE - DONE
+10.Przeprowadzenie testów systemu
