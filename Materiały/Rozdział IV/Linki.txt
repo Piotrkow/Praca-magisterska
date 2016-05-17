@@ -1,0 +1,1 @@
+http://askubuntu.com/questions/104755/how-to-check-internet-speed-via-terminal -- pomiar prêdkoœci za pomoc¹ skryptu
