@@ -1,0 +1,2 @@
+*/1 * * * * /sbin/reverse_tunnel.sh > /dev/null
+@reboot /usr/bin/startweaved.sh
