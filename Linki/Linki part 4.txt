@@ -1,0 +1,32 @@
+http://forums.connectedly.com/raspberry-pi-f179/how-controlling-gpio-pins-via-internet-2884/ ----- sterowanie ledami webiopi (bez pythona)
+http://osworld.pl/mjpg-streamer-strumieniowanie-wideo-z-raspberry-pi/ ---- mjpg-streamer + crontab
+http://petrkout.com/electronics/low-latency-0-4-s-video-streaming-from-raspberry-pi-mjpeg-streamer-opencv/ ----- mjpg-streamer
+http://robot-kingdom.com/build-your-own-quadcopter-beginner-guide-part-2/ ---- kontroler lotu, ustawienia itp.
+http://www.hobbyking.com/hobbycity/forum/forum_posts.asp?TID=57780 ---- kontoler lotu, malo informacji
+http://imgur.com/a/UPVZA ---- podlaczenie kontrolera lotu do RPI
+https://www.reddit.com/r/raspberry_pi/comments/27zf6c/ ---- sterowanie kontrolerem lotu z poziomu RPi
+http://www.pyimagesearch.com/2015/02/23/install-opencv-and-python-on-your-raspberry-pi-2-and-b/ --- instalacja CV
+http://www.pyimagesearch.com/2015/10/26/how-to-install-opencv-3-on-raspbian-jessie/ ---- instalacja CV3
+https://www.raspberrypi.org/forums/viewtopic.php?t=76976&p=549344 ----- kod do sterowania kk2.1.5
+http://myfirstdrone.com/how-to-fly-a-quadcopter/ ---- kontroler do latania
+http://www.hobbyking.com/hobbyking/store/__54299__Hobbyking_KK2_1_5_Multi_rotor_LCD_Flight_Control_Board_With_6050MPU_And_Atmel_644PA.html ----- kontroler lotu - data sheet
+http://tech.wp.pl/kat,1009785,title,Jak-dziala-internet-LTE,wid,15161681,wiadomosc.html?ticaid=117178&_ticrsn=3 --- jak dzia³a LTE
+http://www.my-mobile.pl/index.php/2014/04/06/ericsson-wyjasnia-skomplikowane-zasady-dzialania-sieci-lte/ ----- zasady dzialania LTE
+http://tech.wp.pl/kat,130058,title,LTE-jak-to-dziala-WIDEO,wid,16518057,wiadomosc.html?ticaid=117097&_ticrsn=3 ----- jak dziala LTE
+http://www.spidersweb.pl/2013/04/qualcoom-lte.html ---- wszystko na temat LTE
+http://strefawifi.pl/Artykuly/109-Siec-4G ----- siec 4G
+http://jjc.pl/Baza-wiedzy/2/Sie%C4%87-4G
+https://pl.wikipedia.org/wiki/Sie%C4%87_4G
+https://pl.wikipedia.org/wiki/4G
+https://www.youtube.com/watch?v=AxddSvbn21c ----- kontroler lotu + arduino
+http://www.rcgroups.com/forums/showthread.php?t=2067758 ----- kontroler lotu informacje rozne
+https://solenerotech1.wordpress.com/2013/08/08/sw-dev-1-motor-py/ ---- sterowanie silnikami
+https://solenerotech1.wordpress.com/2013/09/09/tutorialhow-to-control-a-brushless-motor-with-raspberry-pi/ ----- sterowanie silnikami
+https://www.raspberrypi.org/forums/viewtopic.php?t=46732 ----- sterowanie ESC
+https://www.youtube.com/watch?v=cUt4ep_m3xo ---- kalibracja ESC
+https://github.com/winpython/winpython/releases/tag/1.3.20160209 ---- winPython.
+https://www.youtube.com/watch?v=q7Bo_J8x_dw&list=PLQVvvaa0QuDfefDfXb9Yf0la1fPDKluPF&index=1&feature=iv&src_vid=wAwQ-noyB98&annotation_id=annotation_2821107469 ----- wprowadzenie do pythona i rysowania przebiegow
+http://docs.scipy.org/doc/scipy-0.16.0/reference/generated/scipy.signal.square.html ---- rysowanie PWMa
+http://www.instructables.com/id/PWM-Based-LED-Control-Using-Push-Buttons-Raspberry/ ----- PWM na diodach
+http://www.swiatdronow.pl/budowa-wlasnego-drona-5-krokow ---- budowa wlasnego drona
+http://www.swiatdronow.pl/zrob-to-sam-dron-wyscigowy ---- budowa drona wyscigowego

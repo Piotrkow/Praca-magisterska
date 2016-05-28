@@ -1,0 +1,6 @@
+pi@raspberrypi:/usr/src/mjpg-streamer/mjpg-streamer/mjpg-streamer-experimental 
+$ ./mjpg_streamer -o "output_http.so -w ./www -p 5001" -i "input_raspicam.so -x 640 -y 480 -fps 20 -ex night"
+
+@*<img src="http://192.168.1.1:9090/stream/?action=stream">*@
+
+<img src="http://pidronx.ddns.net:6790/?action=stream">

@@ -1,0 +1,178 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+	<title>WebIOPi | PiDronX CS</title>
+    <script type="text/javascript" src="/webiopi.js"></script>
+    <script type="text/javascript">
+	var imageNr = 0; // Serial number of current image
+var finished = new Array(); // References to img objects which have finished downloading
+var paused = false;
+
+function createImageLayer() {
+  var img = new Image();
+  img.style.position = "absolute";
+  img.style.height = "auto";
+  img.style.width = "30%";
+  img.style.zIndex = -1;
+  img.onload = imageOnload;
+  img.onclick = imageOnclick;
+  img.src = "http://pidronx.ddns.net:6790/?action=snapshot&n=" + (++imageNr);
+  var webcam = document.getElementById("webcam");
+  webcam.insertBefore(img, webcam.firstChild);
+}
+
+// Two layers are always present (except at the very beginning), to avoid flicker
+function imageOnload() {
+  this.style.zIndex = imageNr; // Image finished, bring to front!
+  while (1 < finished.length) {
+    var del = finished.shift(); // Delete old image(s) from document
+    del.parentNode.removeChild(del);
+  }
+  finished.push(this);
+  if (!paused) createImageLayer();
+}
+
+function imageOnclick() { // Clicking on the image will pause the stream
+  paused = !paused;
+  if (!paused) createImageLayer();
+}
+
+	
+function init() {
+		var button;
+			
+		button = webiopi().createButton("bt_up", "/\\", go_forward, stop);
+		$("#up").append(button);
+		
+		button = webiopi().createButton("bt_left", "<", turn_left, stop);
+		$("#middle").append(button);
+		
+		button = webiopi().createButton("bt_stop", "X", stop);
+		$("#middle").append(button);
+		
+		button = webiopi().createButton("bt_right", ">", turn_right, stop);
+		$("#middle").append(button);
+		
+		button = webiopi().createButton("bt_down", "\\/", go_backward, stop);
+		$("#down").append(button);
+		
+		button = webiopi().createButton("bt_up2", "/\\", go_forward, stop);
+		$("#up2").append(button);
+		
+		button = webiopi().createButton("bt_left2", "<", turn_left, stop);
+		$("#middle2").append(button);
+		
+		button = webiopi().createButton("bt_stop2", "X", stop);
+		$("#middle2").append(button);
+		
+		button = webiopi().createButton("bt_right2", ">", turn_right, stop);
+		$("#middle2").append(button);
+		
+		button = webiopi().createButton("bt_down2", "\\/", go_backward, stop);
+		$("#down2").append(button);
+	}
+	
+	function go_forward() {
+		webiopi().callMacro("go_forward");
+	}
+		
+	function go_backward() {
+		webiopi().callMacro("go_backward");
+	}
+		
+	function turn_right() {
+		webiopi().callMacro("turn_right");
+	}
+		
+	function turn_left() {
+		webiopi().callMacro("turn_left");
+	}
+		
+	function stop() {
+		webiopi().callMacro("stop");
+	}
+	
+	webiopi().ready(init);
+
+    </script>
+	
+	
+    <style type="text/css">
+		button {
+			margin: 5px 5px 5px 5px;
+			width: 50px;
+			height: 50px;
+			font-size: 24pt;
+			font-weight: bold;
+			color: black;
+		}
+		
+		img.responsive {
+			width : 100%; /* or max-width : 100% */
+			height: auto; 
+		}
+		
+		.section {
+			clear: both;
+			padding: 0px;
+			margin: 0px;
+		}
+
+
+		.col {
+				display: block;
+				float:left;
+				margin: 1% 0 1% 1.6%;
+			}
+		.col:first-child { margin-left: 0; }
+
+		.group:before,
+		.group:after { content:""; display:table; }
+		.group:after { clear:both;}
+		.group { zoom:1; /* For IE 6/7 */ }
+
+		.span_3_of_3 { width: 100%; }
+		.span_2_of_3 { width: 66.13%; }
+		.span_1_of_3 { width: 32.26%; }
+
+		@media only screen and (max-width: 480px) {
+			.col {  margin: 1% 0 1% 0%; }
+			.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+		}
+    </style>
+</head>
+<body onload="createImageLayer();">
+
+<div class="w3-container w3-orange" align="center">
+			  <h1>PiDronx Control System</h1> 
+			</div>
+				<div class="section group">
+					<div class="col span_1_of_3">
+						  <div id="content" class="col span_3_of_3" align="center">
+						  	<h2>Throttle/Rubber Yaw</h2>
+								<div id="up"></div>
+								<div id="middle"></div>
+								<div id="down"></div>
+							</div>
+					</div>
+							
+					<div class="col span_1_of_3">
+					  <h2>Camera View</h2>
+					  <br>
+					  <div class="responsive" id="webcam"><noscript><img class="responsive" src="http://pidronx.ddns.net:6790/?action=snapshot" alt="Sky View"/></noscript></div>
+					</div>
+					
+					<div class="col span_1_of_3">
+					  <div id="content" class="col span_3_of_3" align="center">
+							<h2>Roll/Tilt</h2>
+								<div id="up2"></div>
+								<div id="middle2"></div>
+								<div id="down2"></div>
+							</div>				
+					</div>
+				</div>	
+</body>
+</html>
